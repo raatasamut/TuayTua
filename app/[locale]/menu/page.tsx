@@ -117,11 +117,11 @@ export default function MenuPage({ params }: MenuPageProps) {
                 onClick={() => setActiveCategory(category)}
                 className={`px-5 py-3 rounded-full font-medium text-sm transition-all duration-300 transform hover:scale-105 ${
                   activeCategory === category 
-                    ? "bg-pink dark:bg-pink text-white shadow-md scale-105" 
-                    : "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-pink hover:text-white"
+                    ? "bg-pink dark:bg-pink text-green-900 shadow-md scale-105" 
+                    : "bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-300 hover:bg-pink hover:text-white"
                 }`}
               >
-                {t[category as keyof typeof t]}
+                {t[category as keyof typeof t] ?? (locale === 'th' ? 'ทั้งหมด' : 'ALL MENU')}
               </button>
             ))}
           </div>
@@ -157,18 +157,6 @@ export default function MenuPage({ params }: MenuPageProps) {
                   } ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'} transition-all ${delay}`}
                 >
                   <div className="relative p-4">
-                    {/* Price tag with cute shape */}
-                    <div className="absolute top-4 right-4 z-11">
-                      <div className="relative animate-pulse-slow z-12">
-                        <svg width="80" height="80" viewBox="0 0 80 80" className="transform rotate-12">
-                          <path d="M40,5 C50,15 65,15 75,5 C65,25 65,55 75,75 C55,65 25,65 5,75 C15,55 15,25 5,5 C25,15 30,15 40,5 Z" 
-                            fill="white" stroke="#F8D7DA" strokeWidth="2" />
-                        </svg>
-                        <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-gray-900 text-lg">
-                          {item.price}
-                        </span>
-                      </div>
-                    </div>
 
                     {/* Image with animated container */}
                     <div className="relative h-48 flex items-center justify-center mb-4 overflow-hidden group">
@@ -179,18 +167,18 @@ export default function MenuPage({ params }: MenuPageProps) {
                         <div className="absolute bottom-1/4 right-1/4 w-4 h-4 rounded-full bg-white opacity-30 animate-float-delay"></div>
                       </div>
                       <Image
-                        src={`/menu-item-${originalIndex + 1}.svg`}
+                        src={`/menu/menu-item-${originalIndex + 1}.png`}
                         alt={item.name}
                         width={200}
                         height={200}
-                        className="h-40 w-auto object-contain relative z-10 transform group-hover:scale-110 transition-transform duration-300"
+                        className="h-40 w-auto object-contain relative z-10 transform group-hover:scale-110 transition-transform duration-300 rounded-2xl"
                       />
                     </div>
 
                     {/* Content with playful design */}
                     <div className="bg-white dark:bg-gray-700 rounded-2xl p-5 shadow-inner">
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 relative inline-block group">
-                        {item.name}
+                        {item.name} ({item.price})
                         <span className="absolute -bottom-1 left-0 right-0 h-1 bg-soft-green rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
                       </h3>
 
@@ -209,7 +197,7 @@ export default function MenuPage({ params }: MenuPageProps) {
                           </svg>
                         </div>
                         <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-1 flex items-center">
-                          <span className="w-5 h-5 bg-soft-green rounded-full flex items-center justify-center mr-2 text-white text-xs group-hover:scale-110 transition-transform duration-300">✓</span>
+                          <span className="w-5 h-5 bg-soft-green rounded-full flex items-center justify-center mr-2 text-green-900 text-xs group-hover:scale-110 transition-transform duration-300">✓</span>
                           {t.benefits}
                         </h4>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
@@ -226,7 +214,7 @@ export default function MenuPage({ params }: MenuPageProps) {
                           </svg>
                         </div>
                         <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-1 flex items-center">
-                          <span className="w-5 h-5 bg-blush-pink rounded-full flex items-center justify-center mr-2 text-white text-xs group-hover:scale-110 transition-transform duration-300">♥</span>
+                          <span className="w-5 h-5 bg-blush-pink rounded-full flex items-center justify-center mr-2 text-green-900 text-xs group-hover:scale-110 transition-transform duration-300">♥</span>
                           {t.ingredients}
                         </h4>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">

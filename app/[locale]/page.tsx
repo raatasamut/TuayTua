@@ -28,12 +28,12 @@ export default function HomePage({ params }: HomePageProps) {
       description: "น้ำเต้าหู้คุณภาพสูง เน้นสุขภาพ อบอุ่น เรียบง่าย เหมาะกับลูกค้าทุกเพศทุกวัย",
       ctaButton: "ดูเพิ่มเติม",
       featuredProducts: "เมนูแนะนำ",
-      original: "น้ำเต้าหู้รสดั้งเดิม",
-      originalDesc: "รสชาติดั้งเดิมที่คุณคุ้นเคย หวานน้อย อร่อย สดชื่น",
-      sweetened: "น้ำเต้าหู้รสหวาน",
-      sweetenedDesc: "หวานกำลังดี ดื่มง่าย เหมาะสำหรับทุกคนในครอบครัว",
-      unsweetened: "น้ำเต้าหู้ไม่หวาน",
-      unsweetenedDesc: "รสชาติธรรมชาติของถั่วเหลือง ไม่เติมน้ำตาล เหมาะสำหรับผู้รักสุขภาพ"
+      original: "ถ้วยอุ่น",
+      originalDesc: "น้ำเต้าหู้ร้อน หอม อุ่นใจ, อุดมไปด้วยโปรตีน ช่วยบำรุงกระดูกและกล้ามเนื้อ ให้ความอบอุ่นแก่ร่างกาย",
+      sweetened: "ถ้วยดำ",
+      sweetenedDesc: "น้ำเต้าหู้งาดำ เข้มข้น เต็มคุณค่า, อุดมไปด้วยแคลเซียมและวิตามินอี ช่วยบำรุงกระดูกและผิวพรรณ",
+      unsweetened: "ถ้วยเต็ม",
+      unsweetenedDesc: "น้ำเต้าหู้ธัญพืชรวม เต็มถ้วย เต็มคุณค่า, ให้พลังงานสูง อุดมไปด้วยใยอาหาร ช่วยบำรุงสุขภาพโดยรวม"
     },
     en: {
       title: "TuayTua",
@@ -43,12 +43,12 @@ export default function HomePage({ params }: HomePageProps) {
       description: "High-quality tofu milk focused on health, warmth, and simplicity, suitable for customers of all ages",
       ctaButton: "Learn More",
       featuredProducts: "Featured Menu",
-      original: "Original Tofu Milk",
-      originalDesc: "The classic taste you know and love, lightly sweetened and refreshing",
-      sweetened: "Sweetened Tofu Milk",
-      sweetenedDesc: "Perfectly sweetened, easy to drink, suitable for the whole family",
-      unsweetened: "Unsweetened Tofu Milk",
-      unsweetenedDesc: "Natural soybean flavor, no added sugar, perfect for health-conscious individuals"
+      original: "Warm Cup",
+      originalDesc: "Hot Soy Milk – smooth, comforting warmth, Rich in protein, helps strengthen bones and muscles, provides warmth to the body",
+      sweetened: "Black Cup",
+      sweetenedDesc: "Black Sesame Soy Milk – rich and nutty, Rich in calcium and vitamin E, helps strengthen bones and skin",
+      unsweetened: "Full Cup",
+      unsweetenedDesc: "Mixed Grain Soy Milk – hearty and wholesome, High energy, rich in fiber, promotes overall health"
     }
   };
 
@@ -107,11 +107,11 @@ export default function HomePage({ params }: HomePageProps) {
             <div className="md:w-1/2 flex justify-center">
               <div className="relative w-full max-w-md h-80 md:h-96 rounded-3xl overflow-hidden shadow-xl border-4 border-white dark:border-gray-700 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
                 <Image
-                  src="/hero-image.svg"
+                  src="/banner/banner.png"
                   alt="TuayTua Tofu Milk"
                   width={500}
-                  height={400}
-                  className="w-full h-full object-contain"
+                  height={500}
+                  className="w-full h-full object-fill"
                   priority
                 />
               </div>
@@ -163,11 +163,11 @@ export default function HomePage({ params }: HomePageProps) {
                 <div className="absolute bottom-1/4 right-1/4 w-4 h-4 rounded-full bg-cream opacity-30 animate-float-delay"></div>
 
                 <Image
-                  src="/product-original.svg"
-                  alt="Original Tofu Milk"
+                  src="/menu/menu-item-1.png"
+                  alt="Warm Cup"
                   width={400}
-                  height={300}
-                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
+                  height={400}
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300 rounded-2xl"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 relative inline-block group">
@@ -200,10 +200,10 @@ export default function HomePage({ params }: HomePageProps) {
                 </div>
 
                 <Image
-                  src="/product-sweetened.svg"
-                  alt="Sweetened Tofu Milk"
+                    src="/menu/menu-item-4.png"
+                  alt="Black Cup"
                   width={400}
-                  height={300}
+                  height={400}
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
@@ -239,10 +239,10 @@ export default function HomePage({ params }: HomePageProps) {
                 </div>
 
                 <Image
-                  src="/product-unsweetened.svg"
-                  alt="Unsweetened Tofu Milk"
+                    src="/menu/menu-item-6.png"
+                  alt="Full Cup"
                   width={400}
-                  height={300}
+                  height={400}
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
