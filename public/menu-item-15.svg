@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Banana Tofu Milk -->
+  <rect width="100%" height="100%" fill="#f8f8f8" />
+  
+  <!-- Cup -->
+  <path d="M60,60 L140,60 L130,160 L70,160 Z" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  
+  <!-- Liquid -->
+  <path d="M65,70 L135,70 L127,150 L73,150 Z" fill="#fff7cc" />
+  
+  <!-- Banana slices -->
+  <ellipse cx="85" cy="90" rx="12" ry="8" fill="#ffeb99" stroke="#e6d180" stroke-width="1" />
+  <ellipse cx="85" cy="90" rx="2" ry="1" fill="#e6d180" />
+  
+  <ellipse cx="110" cy="100" rx="12" ry="8" fill="#ffeb99" stroke="#e6d180" stroke-width="1" />
+  <ellipse cx="110" cy="100" rx="2" ry="1" fill="#e6d180" />
+  
+  <ellipse cx="90" cy="120" rx="12" ry="8" fill="#ffeb99" stroke="#e6d180" stroke-width="1" />
+  <ellipse cx="90" cy="120" rx="2" ry="1" fill="#e6d180" />
+  
+  <ellipse cx="115" cy="130" rx="12" ry="8" fill="#ffeb99" stroke="#e6d180" stroke-width="1" />
+  <ellipse cx="115" cy="130" rx="2" ry="1" fill="#e6d180" />
+  
+  <!-- Banana decoration -->
+  <path d="M75,75 Q90,65 105,75" fill="none" stroke="#ffeb99" stroke-width="3" />
+  <path d="M95,75 Q110,65 125,75" fill="none" stroke="#ffeb99" stroke-width="3" />
+  
+  <!-- Swirls -->
+  <path d="M75,110 C85,105 95,115 105,110 C115,105 125,115 125,110" fill="none" stroke="#ffeb99" stroke-width="2" />
+  <path d="M75,140 C85,135 95,145 105,140 C115,135 125,145 125,140" fill="none" stroke="#ffeb99" stroke-width="2" />
+</svg>

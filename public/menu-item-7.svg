@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#D1E7DD" rx="30" ry="30"/>
+  
+  <!-- Cute Soy Milk Bowl -->
+  <ellipse cx="200" cy="200" rx="80" ry="30" fill="#4D8061" stroke="#4A5568" stroke-width="4"/>
+  <path d="M120 200 C120 150 280 150 280 200" fill="#4D8061" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Matcha Swirl -->
+  <path d="M160 180 C180 170 220 190 240 180" stroke="#2F5233" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M170 160 C190 150 210 170 230 160" stroke="#2F5233" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Matcha Powder -->
+  <circle cx="180" cy="140" r="5" fill="#8BC34A"/>
+  <circle cx="200" cy="130" r="5" fill="#8BC34A"/>
+  <circle cx="220" cy="140" r="5" fill="#8BC34A"/>
+  <circle cx="160" cy="150" r="3" fill="#8BC34A"/>
+  <circle cx="240" cy="150" r="3" fill="#8BC34A"/>
+  
+  <!-- Bamboo Whisk -->
+  <path d="M260 120 L240 180" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M240 120 C250 110 270 110 280 120" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Cute Face -->
+  <circle cx="180" cy="190" r="8" fill="white"/>
+  <circle cx="220" cy="190" r="8" fill="white"/>
+  <circle cx="180" cy="190" r="4" fill="#4A5568"/>
+  <circle cx="220" cy="190" r="4" fill="#4A5568"/>
+  <path d="M190 210 Q 200 220 210 210" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="300" font-family="Arial" font-size="16" fill="#4A5568" text-anchor="middle" font-weight="bold">Matcha Soy Milk</text>
+  <text x="200" y="325" font-family="Arial" font-size="14" fill="#4A5568" text-anchor="middle">นมถั่วเหลืองรสมัทฉะ</text>
+</svg>

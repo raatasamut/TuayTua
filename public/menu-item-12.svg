@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Chocolate Tofu Milk -->
+  <rect width="100%" height="100%" fill="#f8f8f8" />
+  
+  <!-- Cup -->
+  <path d="M60,60 L140,60 L130,160 L70,160 Z" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  
+  <!-- Liquid -->
+  <path d="M65,70 L135,70 L127,150 L73,150 Z" fill="#5c3c2e" />
+  
+  <!-- Chocolate swirls -->
+  <path d="M75,90 C85,85 95,95 105,90 C115,85 125,95 125,90" fill="none" stroke="#3a2418" stroke-width="2" />
+  <path d="M75,110 C85,105 95,115 105,110 C115,105 125,115 125,110" fill="none" stroke="#3a2418" stroke-width="2" />
+  <path d="M75,130 C85,125 95,135 105,130 C115,125 125,135 125,130" fill="none" stroke="#3a2418" stroke-width="2" />
+  
+  <!-- Chocolate pieces -->
+  <rect x="85" y="80" width="10" height="10" fill="#3a2418" rx="2" ry="2" />
+  <rect x="105" y="100" width="10" height="10" fill="#3a2418" rx="2" ry="2" />
+  <rect x="90" y="120" width="10" height="10" fill="#3a2418" rx="2" ry="2" />
+  
+  <!-- Steam/decoration -->
+  <path d="M90,50 Q100,30 110,50" fill="none" stroke="#cccccc" stroke-width="2" />
+  <path d="M80,55 Q90,35 100,55" fill="none" stroke="#cccccc" stroke-width="2" />
+  <path d="M100,55 Q110,35 120,55" fill="none" stroke="#cccccc" stroke-width="2" />
+</svg>

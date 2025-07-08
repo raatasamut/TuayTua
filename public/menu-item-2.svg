@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#F8D7DA" rx="30" ry="30"/>
+  
+  <!-- Cute Soy Milk Cup -->
+  <path d="M150 100 L135 250 C135 265 265 265 265 250 L250 100 Z" fill="white" stroke="#4A5568" stroke-width="4"/>
+  <path d="M145 100 L255 100 C260 100 260 85 255 85 L145 85 C140 85 140 100 145 100 Z" fill="#F8D7DA" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Straw -->
+  <path d="M225 85 C240 75 250 40 245 30" stroke="#4A5568" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hearts -->
+  <path d="M175 140 C175 130 165 130 165 140 C165 150 175 155 175 155 C175 155 185 150 185 140 C185 130 175 130 175 140 Z" fill="#FF9999"/>
+  <path d="M225 140 C225 130 215 130 215 140 C215 150 225 155 225 155 C225 155 235 150 235 140 C235 130 225 130 225 140 Z" fill="#FF9999"/>
+  
+  <!-- Cute Face -->
+  <circle cx="180" cy="180" r="10" fill="#4A5568"/>
+  <circle cx="220" cy="180" r="10" fill="#4A5568"/>
+  <path d="M180 210 Q 200 230 220 210" stroke="#4A5568" stroke-width="4" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="300" font-family="Arial" font-size="16" fill="#4A5568" text-anchor="middle" font-weight="bold">Sweetened Soy Milk</text>
+  <text x="200" y="325" font-family="Arial" font-size="14" fill="#4A5568" text-anchor="middle">นมถั่วเหลืองรสหวาน</text>
+</svg>

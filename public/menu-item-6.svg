@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#8B4513" rx="30" ry="30" opacity="0.2"/>
+  
+  <!-- Cute Soy Milk Glass -->
+  <path d="M160 80 L240 80 L230 250 L170 250 Z" fill="#6B4226" stroke="#4A5568" stroke-width="4"/>
+  
+  <!-- Chocolate Swirl -->
+  <path d="M180 100 C220 120 160 140 200 160 C240 180 160 200 200 220 C240 240 180 260 200 280" stroke="#3C2415" stroke-width="10" fill="none" stroke-linecap="round"/>
+  
+  <!-- Chocolate Chips -->
+  <circle cx="190" cy="130" r="5" fill="#3C2415"/>
+  <circle cx="210" cy="150" r="5" fill="#3C2415"/>
+  <circle cx="180" cy="170" r="5" fill="#3C2415"/>
+  <circle cx="220" cy="190" r="5" fill="#3C2415"/>
+  <circle cx="190" cy="210" r="5" fill="#3C2415"/>
+  
+  <!-- Whipped Cream -->
+  <path d="M170 80 Q 180 60 190 70 Q 200 50 210 70 Q 220 60 230 80" fill="white" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Cute Face -->
+  <circle cx="190" cy="120" r="8" fill="white"/>
+  <circle cx="210" cy="120" r="8" fill="white"/>
+  <circle cx="193" cy="123" r="4" fill="#4A5568"/>
+  <circle cx="207" cy="123" r="4" fill="#4A5568"/>
+  <path d="M190 145 Q 200 155 210 145" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="300" font-family="Arial" font-size="16" fill="#4A5568" text-anchor="middle" font-weight="bold">Chocolate Soy Milk</text>
+  <text x="200" y="325" font-family="Arial" font-size="14" fill="#4A5568" text-anchor="middle">นมถั่วเหลืองรสช็อคโกแลต</text>
+</svg>

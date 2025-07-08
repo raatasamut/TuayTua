@@ -1,0 +1,161 @@
+{
+  "common": {
+    "home": "Home",
+    "ourStory": "Our Story",
+    "ingredients": "Ingredients",
+    "whereToBuy": "Where to Buy",
+    "menu": "Menu",
+    "toggleLanguage": "TH",
+    "toggleTheme": "Toggle Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode"
+  },
+  "home": {
+    "title": "TuayTua",
+    "subtitle": "Minimalist Tofu Milk Cafe",
+    "welcomeMessage": "Welcome to TuayTua",
+    "description": "High-quality tofu milk focused on health, warmth, and simplicity, suitable for customers of all ages",
+    "ctaButton": "Learn More"
+  },
+  "ourStory": {
+    "title": "Our Story",
+    "subtitle": "Our Journey",
+    "story": "Starting with the intention to create a minimalist tofu milk cafe focused on health, we have continuously developed our recipes to create delicious tofu milk that preserves all nutritional values.",
+    "values": "Our Values",
+    "valuesList": [
+      "Health",
+      "Warmth",
+      "Simplicity",
+      "Friendly to Everyone"
+    ]
+  },
+  "ingredients": {
+    "title": "Ingredients",
+    "subtitle": "From Farm to Cup",
+    "description": "We select high-quality organic soybeans from local farmers who grow them with care and without chemicals to create our delicious tofu milk.",
+    "farmToTable": "Farm to Table",
+    "farmToTableDescription": "We are committed to creating sustainability for the community and environment by supporting local farmers and using sustainably grown ingredients for our minimalist tofu milk cafe."
+  },
+  "whereToBuy": {
+    "title": "Where to Find Us",
+    "subtitle": "Visit Our Cafe",
+    "description": "You can enjoy our tofu milk at our cafe locations or find our products at the following stores:",
+    "onlineStores": "Online Stores",
+    "physicalStores": "Cafe Locations",
+    "contactUs": "Contact Us"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Special Tofu Milk Drinks",
+    "description": "A variety of tofu milk drinks focused on health, warmth, and simplicity, suitable for customers of all ages",
+    "name": "Name",
+    "benefits": "Benefits",
+    "ingredients": "Ingredients",
+    "price": "Price",
+    "signature": "Signature Menu",
+    "items": [
+      {
+        "name": "Warm Cup",
+        "description": "Hot Tofu Milk",
+        "benefits": "Rich in protein, helps strengthen bones and muscles, provides warmth to the body",
+        "ingredients": "Organic soybeans, water, natural cane sugar, served hot",
+        "price": "45 THB"
+      },
+      {
+        "name": "Cold Cup",
+        "description": "Cold Tofu Milk",
+        "benefits": "Quenches thirst, provides refreshment, perfect for hot days",
+        "ingredients": "Organic soybeans, water, natural cane sugar, ice",
+        "price": "50 THB"
+      },
+      {
+        "name": "Green Cup",
+        "description": "Green Tea Tofu Milk",
+        "benefits": "Rich in antioxidants, helps burn fat, strengthens the immune system",
+        "ingredients": "Organic soybeans, water, matcha green tea, natural cane sugar",
+        "price": "60 THB"
+      },
+      {
+        "name": "Black Cup",
+        "description": "Black Sesame Tofu Milk",
+        "benefits": "Rich in calcium and vitamin E, helps strengthen bones and skin",
+        "ingredients": "Organic soybeans, water, ground black sesame, natural cane sugar",
+        "price": "55 THB"
+      },
+      {
+        "name": "Clear Cup",
+        "description": "Tofu Milk with Basil Seeds",
+        "benefits": "Aids digestion, reduces body heat, provides refreshment",
+        "ingredients": "Organic soybeans, water, basil seeds, natural cane sugar",
+        "price": "55 THB"
+      },
+      {
+        "name": "Full Cup",
+        "description": "Tofu Milk with Mixed Grains",
+        "benefits": "High energy, rich in fiber, promotes overall health",
+        "ingredients": "Organic soybeans, water, mixed grains (black sesame, barley, red beans, lotus seeds), natural cane sugar",
+        "price": "65 THB"
+      },
+      {
+        "name": "Original Tofu Milk",
+        "benefits": "Rich in protein, helps strengthen bones and muscles, reduces the risk of heart disease",
+        "ingredients": "Organic soybeans, water, natural cane sugar",
+        "price": "45 THB"
+      },
+      {
+        "name": "Sweetened Tofu Milk",
+        "benefits": "High energy, suitable for those who want to gain weight or athletes",
+        "ingredients": "Organic soybeans, water, natural cane sugar (extra)",
+        "price": "50 THB"
+      },
+      {
+        "name": "Unsweetened Tofu Milk",
+        "benefits": "Suitable for weight control, diabetics, or those who want to reduce sugar consumption",
+        "ingredients": "Organic soybeans, water",
+        "price": "45 THB"
+      },
+      {
+        "name": "Black Sesame Tofu Milk",
+        "benefits": "Rich in calcium and vitamin E, helps strengthen bones and skin",
+        "ingredients": "Organic soybeans, water, ground black sesame, natural cane sugar",
+        "price": "55 THB"
+      },
+      {
+        "name": "Almond Tofu Milk",
+        "benefits": "High in vitamin E, helps nourish skin and nervous system",
+        "ingredients": "Organic soybeans, water, ground almonds, natural cane sugar",
+        "price": "60 THB"
+      },
+      {
+        "name": "Chocolate Tofu Milk",
+        "benefits": "High in antioxidants, helps nourish the brain and nervous system",
+        "ingredients": "Organic soybeans, water, organic cocoa, natural cane sugar",
+        "price": "55 THB"
+      },
+      {
+        "name": "Matcha Tofu Milk",
+        "benefits": "Rich in antioxidants, helps burn fat, strengthens the immune system",
+        "ingredients": "Organic soybeans, water, matcha green tea, natural cane sugar",
+        "price": "60 THB"
+      },
+      {
+        "name": "Honey Tofu Milk",
+        "benefits": "Has anti-inflammatory properties, helps relieve allergy symptoms, strengthens the immune system",
+        "ingredients": "Organic soybeans, water, natural honey",
+        "price": "55 THB"
+      },
+      {
+        "name": "Banana Tofu Milk",
+        "benefits": "High energy, rich in potassium, helps nourish muscles and nervous system",
+        "ingredients": "Organic soybeans, water, mashed banana, natural cane sugar",
+        "price": "55 THB"
+      },
+      {
+        "name": "Strawberry Tofu Milk",
+        "benefits": "Rich in vitamin C, helps strengthen the immune system and nourish the skin",
+        "ingredients": "Organic soybeans, water, mashed strawberries, natural cane sugar",
+        "price": "60 THB"
+      }
+    ]
+  }
+}

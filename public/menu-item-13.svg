@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Matcha Tofu Milk -->
+  <rect width="100%" height="100%" fill="#f8f8f8" />
+  
+  <!-- Cup -->
+  <path d="M60,60 L140,60 L130,160 L70,160 Z" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  
+  <!-- Liquid -->
+  <path d="M65,70 L135,70 L127,150 L73,150 Z" fill="#8dc63f" />
+  
+  <!-- Matcha swirls -->
+  <path d="M75,90 C85,85 95,95 105,90 C115,85 125,95 125,90" fill="none" stroke="#4c7d32" stroke-width="2" />
+  <path d="M75,110 C85,105 95,115 105,110 C115,105 125,115 125,110" fill="none" stroke="#4c7d32" stroke-width="2" />
+  <path d="M75,130 C85,125 95,135 105,130 C115,125 125,135 125,130" fill="none" stroke="#4c7d32" stroke-width="2" />
+  
+  <!-- Matcha powder -->
+  <circle cx="85" cy="85" r="5" fill="#4c7d32" />
+  <circle cx="105" cy="95" r="5" fill="#4c7d32" />
+  <circle cx="95" cy="115" r="5" fill="#4c7d32" />
+  <circle cx="115" cy="125" r="5" fill="#4c7d32" />
+  
+  <!-- Tea leaf decoration -->
+  <path d="M100,80 Q110,75 105,90" fill="#4c7d32" />
+  <path d="M90,100 Q100,95 95,110" fill="#4c7d32" />
+  
+  <!-- Steam/decoration -->
+  <path d="M90,50 Q100,30 110,50" fill="none" stroke="#cccccc" stroke-width="2" />
+  <path d="M80,55 Q90,35 100,55" fill="none" stroke="#cccccc" stroke-width="2" />
+  <path d="M100,55 Q110,35 120,55" fill="none" stroke="#cccccc" stroke-width="2" />
+</svg>

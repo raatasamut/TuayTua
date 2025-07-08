@@ -1,0 +1,9 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FEC5BB" rx="40" ry="40"/>
+  <circle cx="400" cy="250" r="150" fill="#F8F3E6" stroke="#F8D7DA" stroke-width="10"/>
+  <circle cx="350" cy="200" r="20" fill="#4A5568"/>
+  <circle cx="450" cy="200" r="20" fill="#4A5568"/>
+  <path d="M350 300 Q 400 350 450 300" stroke="#4A5568" stroke-width="8" fill="none"/>
+  <text x="50%" y="450" font-family="Arial" font-size="32" fill="#4A5568" text-anchor="middle" font-weight="bold">นมถั่วเหลืองคุณภาพสูง</text>
+  <text x="50%" y="500" font-family="Arial" font-size="24" fill="#4A5568" text-anchor="middle">Premium Soy Milk</text>
+</svg>
